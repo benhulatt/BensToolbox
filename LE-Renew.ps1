@@ -2,7 +2,7 @@
 Set-PAServer LE_PROD
 
 #Generate the certificate (-install will install in windows for us)
-#New-PACertificate vcc.avecsys.net -AcceptTOS -Contact messages@avecsys.com -Install -Force
+#New-PACertificate vcc.avecsys.net -AcceptTOS -Contact messages@avecsys.com -Install -Force #This is commented out since we only want to renew - you can uncomment this one if it's the first run!
 
 #incase it's already generated run a renewal
 Submit-Renewal -AllOrders
